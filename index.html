@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>医暖乡间 - 志愿者联动健康服务平台</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>医暖乡间</h1>
+                <p>志愿者联动健康服务平台</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">首页</a></li>
+                    <li><a href="pages/volunteer.html">志愿者管理</a></li>
+                    <li><a href="pages/medicine.html">送药服务</a></li>
+                    <li><a href="pages/health.html">健康监察</a></li>
+                    <li><a href="pages/about.html">关于我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="slider">
+            <div class="slide active">
+                <img src="images/banner1.jpg" alt="志愿者送药服务">
+                <div class="slide-content">
+                    <h2>让爱心传递到每个乡村角落</h2>
+                    <p>专业志愿者团队为乡村居民提供贴心送药服务</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/banner2.jpg" alt="健康监测服务">
+                <div class="slide-content">
+                    <h2>实时健康监测守护家人安康</h2>
+                    <p>智能数据分析为在外务工子女提供亲人健康报告</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/banner3.jpg" alt="志愿者培训">
+                <div class="slide-content">
+                    <h2>专业培训打造优质志愿服务</h2>
+                    <p>系统化培训体系确保服务质量和安全</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev" onclick="changeSlide(-1)">‹</button>
+            <button class="next" onclick="changeSlide(1)">›</button>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="container">
+            <h2>平台简介</h2>
+            <div class="intro-content">
+                <div class="intro-text">
+                    <p>医暖乡间是一个专注于乡村医疗健康服务的志愿者联动平台，致力于解决乡村居民用药难、健康监测难的问题。通过整合志愿者资源、医疗机构和智能技术，我们为乡村居民提供便捷的送药服务和全面的健康监察，让在外务工子女能够实时了解家中老人的健康状况。</p>
+                    <p>平台采用智能化管理系统，科学分配志愿者任务，确保每一位居民都能获得及时、专业的医疗健康服务。我们相信，通过科技与爱心的结合，可以让优质医疗资源真正惠及每一个乡村家庭。</p>
+                </div>
+                <div class="intro-image">
+                    <img src="images/intro.jpg" alt="平台服务介绍">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="modules">
+        <div class="container">
+            <h2>核心功能模块</h2>
+            <div class="module-grid">
+                <div class="module-card">
+                    <div class="module-icon">
+                        <img src="images/volunteer-icon.jpg" alt="志愿者管理">
+                    </div>
+                    <h3>志愿者管理</h3>
+                    <p>完善的志愿者招募、培训、任务分配和考核评价体系，确保志愿服务的专业性和持续性完善的志愿者招募。</p>
+                    <ul>
+                        <li>在线招募与报名</li>
+                        <li>专业培训与考核</li>
+                        <li>智能任务分配</li>
+                        <li>服务质量评价</li>
+                    </ul>
+                    <a href="pages/volunteer.html" class="btn">了解更多</a>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">
+                        <img src="images/medicine-icon.jpg" alt="送药服务">
+                    </div>
+                    <h3>送药服务</h3>
+                    <p>便捷的用药需求提交、药品采购配送和用药提醒服务，让乡村居民足不出户即可获得所需药品。</p>
+                    <ul>
+                        <li>多方式需求提交</li>
+                        <li>正规药品采购</li>
+                        <li>实时配送跟踪</li>
+                        <li>智能用药提醒</li>
+                    </ul>
+                    <a href="pages/medicine.html" class="btn">了解更多</a>
+                </div>
+                <div class="module-card">
+                    <div class="module-icon">
+                        <img src="images/health-icon.jpg" alt="健康监察">
+                    </div>
+                    <h3>健康监察</h3>
+                    <p>定期健康检查、智能数据分析和健康报告生成，为在外务工子女提供亲人健康状况的全面了解。</p>
+                    <ul>
+                        <li>定期健康检查</li>
+                        <li>智能数据分析</li>
+                        <li>异常预警提醒</li>
+                        <li>个性化健康报告</li>
+                    </ul>
+                    <a href="pages/health.html" class="btn">了解更多</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <h2>服务数据</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">1280</div>
+                    <div class="stat-label">注册志愿者</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3560</div>
+                    <div class="stat-label">服务居民数</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">8920</div>
+                    <div class="stat-label">送药次数</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15600</div>
+                    <div class="stat-label">健康监测次数</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <h2>最新动态</h2>
+            <div class="news-grid">
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news1.jpg" alt="志愿者培训活动">
+                    </div>
+                    <div class="news-content">
+                        <h3>第十二期志愿者培训圆满结束</h3>
+                        <p class="news-date">2025年11月15日</p>
+                        <p>本期培训共有85名志愿者参与，通过系统学习药品知识、急救技能和沟通技巧，全员顺利通过考核并获得上岗资格。培训现场气氛热烈，志愿者们纷纷表示将用专业的服务回馈乡村居民的信任。</p>
+                    </div>
+                </article>
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news2.jpg" alt="健康监测设备">
+                    </div>
+                    <div class="news-content">
+                        <h3>智能健康监测设备全面升级</h3>
+                        <p class="news-date">2025年11月10日</p>
+                        <p>平台引进新一代智能穿戴设备，可实时监测血压、血糖、心率等多项生理指标。设备数据自动同步至平台，为居民提供更加精准的健康监测服务，让在外子女随时掌握家人健康状况。</p>
+                    </div>
+                </article>
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news3.jpg" alt="送药服务">
+                    </div>
+                    <div class="news-content">
+                        <h3>送药服务覆盖范围再扩大</h3>
+                        <p class="news-date">2025年11月5日</p>
+                        <p>经过三个月的筹备，平台送药服务已覆盖周边12个乡镇，服务半径扩大至50公里。与当地5家医疗机构和8家药店建立合作关系，确保药品供应充足、质量可靠，为更多乡村居民带去便利。</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>医暖乡间</h3>
+                    <p>用科技连接爱心，让健康服务触达每个乡村</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速导航</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="pages/volunteer.html">志愿者管理</a></li>
+                        <li><a href="pages/medicine.html">送药服务</a></li>
+                        <li><a href="pages/health.html">健康监察</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系我们</h4>
+                    <p>服务热线：400-888-6666</p>
+                    <p>电子邮箱：service@yinuanxiangjian.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 医暖乡间志愿者联动健康服务平台</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
